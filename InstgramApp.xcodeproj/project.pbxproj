@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06699DD328F5A3CA0004C509 /* StoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06699DD228F5A3CA0004C509 /* StoryList.swift */; };
+		06699DD528F5AC240004C509 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06699DD428F5AC240004C509 /* FeedItem.swift */; };
+		0688FC5F28F4AD66007B3AF1 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0688FC5E28F4AD66007B3AF1 /* Assets.swift */; };
+		0688FC6128F4B7B4007B3AF1 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0688FC6028F4B7B4007B3AF1 /* Navigation.swift */; };
+		0688FC6328F4BD4D007B3AF1 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0688FC6228F4BD4D007B3AF1 /* Story.swift */; };
 		068B663F28F20D6200391818 /* InstgramAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B663E28F20D6200391818 /* InstgramAppApp.swift */; };
 		068B664128F20D6200391818 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B664028F20D6200391818 /* ContentView.swift */; };
 		068B664328F20D6400391818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068B664228F20D6400391818 /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06699DD228F5A3CA0004C509 /* StoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryList.swift; sourceTree = "<group>"; };
+		06699DD428F5AC240004C509 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		0688FC5E28F4AD66007B3AF1 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		0688FC6028F4B7B4007B3AF1 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		0688FC6228F4BD4D007B3AF1 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		068B663B28F20D6200391818 /* InstgramApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstgramApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		068B663E28F20D6200391818 /* InstgramAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstgramAppApp.swift; sourceTree = "<group>"; };
 		068B664028F20D6200391818 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,8 +106,13 @@
 			children = (
 				068B663E28F20D6200391818 /* InstgramAppApp.swift */,
 				068B664028F20D6200391818 /* ContentView.swift */,
+				0688FC5E28F4AD66007B3AF1 /* Assets.swift */,
 				068B664228F20D6400391818 /* Assets.xcassets */,
 				068B664428F20D6400391818 /* Preview Content */,
+				0688FC6028F4B7B4007B3AF1 /* Navigation.swift */,
+				0688FC6228F4BD4D007B3AF1 /* Story.swift */,
+				06699DD228F5A3CA0004C509 /* StoryList.swift */,
+				06699DD428F5AC240004C509 /* FeedItem.swift */,
 			);
 			path = InstgramApp;
 			sourceTree = "<group>";
@@ -259,6 +274,11 @@
 			files = (
 				068B664128F20D6200391818 /* ContentView.swift in Sources */,
 				068B663F28F20D6200391818 /* InstgramAppApp.swift in Sources */,
+				0688FC5F28F4AD66007B3AF1 /* Assets.swift in Sources */,
+				06699DD328F5A3CA0004C509 /* StoryList.swift in Sources */,
+				0688FC6128F4B7B4007B3AF1 /* Navigation.swift in Sources */,
+				06699DD528F5AC240004C509 /* FeedItem.swift in Sources */,
+				0688FC6328F4BD4D007B3AF1 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
